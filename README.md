@@ -8,5 +8,5 @@ This repo is used to do code reviews for entire projects from students.
 - Copy all the code from your project to that clone (including gitignore files).
 - Commit all your code and push it to your fork.
 - Send a pull request (feel free to add a comment to your PR, in case it's useful for the reviewer).
-- Send a message on Slack to the instructor who does the code review, with a link to your pull request.
-- You will receive a notification once the instructor has finished your code review.
+- Send a message on Slack to who is in charge of your code review, with a link to the pull request.
+- You will receive a notification once the code review is completed.
