@@ -6,6 +6,7 @@ This repo is used to do code reviews for entire projects from students.
 
 - Make sure you have a linter set up (e.g. [ESLint](https://eslint.org/)), otherwise please add one to your project and lint the code.
 - Check that you have a `.gitignore` file in your repo, otherwise copy the one you find in this repo and add it to your project as a starting point.
+- In case you have already forked this repo in the past, before continuing first delete your fork (any associated pull requests are not deleted, don’t worry).
 
 ## How it works
 
