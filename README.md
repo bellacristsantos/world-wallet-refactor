@@ -11,7 +11,7 @@ This repo is used to do code reviews for entire projects from students.
 ## How it works
 
 - Once your project is ready, fork this repo and clone the fork on your computer.
-- Copy all the code from your project to that clone (including [dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory)).
+- Copy all the code from your project to that clone (without overwriting its `.git` folder), and include any dotfiles (which are hidden files starting with a dot, typically used for configuration purposes).
 - Commit all your code and push it to your fork.
 - Send a pull request (feel free to add a comment to your PR, in case it’s useful for the reviewer).
 - You will receive a notification on GitHub once the code review is completed.
