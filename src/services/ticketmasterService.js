@@ -6,7 +6,7 @@ async function getEvents() {
 
   try {
     const response = await fetch(
-      `https://app.ticketmaster.com/discovery/v2/events.json?apikey=4NGM3P523AIi7I8aWoskGsDyavvX4R5S&size=3&classificationName=music`
+      `https://app.ticketmaster.com/discovery/v2/events.json?apikey=${apiKey}&size=3&classificationName=music`
     );
 
   // console.log('ApiKey:', apiKey);
@@ -35,7 +35,7 @@ async function getEvents() {
 async function getUpcomingEvents() {
   try {
     const response = await fetch(
-      `https://app.ticketmaster.com/discovery/v2/events.json?apikey=4NGM3P523AIi7I8aWoskGsDyavvX4R5S&size=3&classificationName=music`
+      `https://app.ticketmaster.com/discovery/v2/events.json?apikey=${apiKey}&size=3&classificationName=music`
     );
 
 
@@ -69,7 +69,7 @@ async function getUpcomingEvents() {
 //     const artistNamesString = artistNames.join(',');
 
 //     const response = await fetch(
-//       `https://app.ticketmaster.com/discovery/v2/events.json?apikey=4NGM3P523AIi7I8aWoskGsDyavvX4R5S&size=3&classificationName=music&keyword=${artistNamesString}`
+//       `https://app.ticketmaster.com/discovery/v2/events.json?apikey=${apiKey}&size=3&classificationName=music&keyword=${artistNamesString}`
 //     );
 
 //     if (!response.ok) {
