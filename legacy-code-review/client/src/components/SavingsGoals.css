@@ -1,0 +1,17 @@
+.savings-div {
+  width: 393px;
+  height: 370px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+}
+
+.savings-button-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 40px;
+}

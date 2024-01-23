@@ -1,0 +1,10 @@
+.graph-div {
+  width: 818px;
+  height: 370px;
+  border-radius: 20px;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: left;
+}

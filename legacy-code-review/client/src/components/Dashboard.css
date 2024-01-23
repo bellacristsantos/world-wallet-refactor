@@ -1,0 +1,32 @@
+.title-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .first-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .second-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .plaid-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    height: 48px;
+    width: 155px;
+    margin-top: 20;
+    margin-left: 20;
+    color: white;
+    font-size: 18px;
+  }

@@ -1,0 +1,33 @@
+.title-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-div {
+  width: 294px;
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px;
+  background: #ededed;
+}
+
+.log-in {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+p {
+  font-size: 30px;
+  margin-left: 15px;
+  align-self: center;
+}
+
+img {
+  width: 39px;
+  height: 39px;
+  align-self: center;
+  margin-left: 35px;
+}

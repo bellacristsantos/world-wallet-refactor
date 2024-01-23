@@ -1,0 +1,57 @@
+.networth-div {
+  width: 393px;
+  height: 370px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+}
+
+.networth-box {
+  border-radius: 20px;
+  background: #ceabde;
+  width: 314px;
+  height: 136px;
+  align-self: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.networth-text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.p1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.p2 {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.global-breakdown {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.p3 {
+  font-size: 15.714px;
+  font-weight: 700;
+}
+
+.p4 {
+  font-size: 15.714px;
+  font-style: normal;
+}
+
+.p5 {
+  font-size: 15.714px;
+  font-style: normal;
+}
