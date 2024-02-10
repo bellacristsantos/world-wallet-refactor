@@ -33,19 +33,19 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
 ### 1. Install dependencies
 <br />
 
-1) Requirements
-  * Obtain MongoDB URI from MongoDB Atlas
-  ```
-      1.1 Go to the MongoDB Atlas website: https://account.mongodb.com/account/login
-      1.2 Create a new project.
-      1.3 Create a new cluster within the project.
-      1.4 Start the cluster.
-      1.5 Obtain the MongoDB URI from the cluster settings.
-  ```
+  Requirements
+   * Obtain MongoDB URI from MongoDB Atlas
+   ```
+       1.1 Go to the MongoDB Atlas website: https://account.mongodb.com/account/login
+       1.2 Create a new project.
+       1.3 Create a new cluster within the project.
+       1.4 Start the cluster.
+       1.5 Obtain the MongoDB URI from the cluster settings.
+   ```
+ 
+   * Get your PLAID CLIENT ID and PLAID SECRET, follow the instructions on their website: https://plaid.com/docs/quickstart/#how-it-works
 
-  * Get your PLAID CLIENT ID and PLAID SECRET, follow the instructions on their website: https://plaid.com/docs/quickstart/#how-it-works
-
-2) Clone the repository
+### 2. Clone the repository
 ```
   git clone git@github.com:bellacristsantos/world-wallet-refactor.git
 
@@ -53,7 +53,7 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
     cd code-reviews/legacy-code-review
 ```
 
-3) Install dependencies
+### 3. Install dependencies
   * Client folder:
   ```
     npm install
@@ -64,7 +64,7 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
     npm install
   ```
 
-4) Configure your environment
+### 4. Configure your environment
 ```
   cd server/.env.example server/.env
 
@@ -75,7 +75,7 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
     # 3. Obtain a MongoDB URI from MongoDB Atlas and replace MONGODB_URI in server/.env with your URI.
 ```
 
-5) Run the project
+### 5. Run the project
 ```
   * Starts the client
     npm run dev
@@ -84,13 +84,13 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
     npm run dev
   ```
 
-6) Run Tests
-  Requirements
-    * Ensure that MongoDB URI in server/.env is correctly configured.
-
-    * Run Tests with Jest
-      
-        npx jest
-  ```
+### 6. Run Tests
+   Requirements
+     * Ensure that MongoDB URI in server/.env is correctly configured.
+ 
+     * Run Tests with Jest
+       
+         npx jest
+   ```
 
 
