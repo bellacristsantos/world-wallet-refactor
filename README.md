@@ -69,6 +69,7 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
   cd server/.env.example server/.env
 
   Edit server/.env
+
     # 1. PLAID_ENV sandbox is for test usage. Change to development to access real bank accounts.
     # 2. for SESSION_SECRET input a long unique string.
     # 3. Obtain a MongoDB URI from MongoDB Atlas and replace MONGODB_URI in server/.env with your URI.
@@ -88,6 +89,7 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
     * Ensure that MongoDB URI in server/.env is correctly configured.
 
     * Run Tests with Jest
+      
         npx jest
   ```
 
