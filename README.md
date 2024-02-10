@@ -30,8 +30,7 @@ React, Typescript, Node.JS, Express, MongoDB, Mongoose, Plaid API, Jest, Nock, S
 ## Getting started
 <br />
 
-### 1. Install dependencies
-<br />
+### 1. Obtain API Keys
 
   Requirements
    * Obtain MongoDB URI from MongoDB Atlas
