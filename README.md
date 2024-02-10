@@ -2,7 +2,7 @@
 
 <br />
 
-![image](../code-reviews/legacy-code-review/client/src/assets/dashboard.png)
+![image](https://github.com/bellacristsantos/world-wallet-refactor/blob/legacy-code-review/legacy-code-review/client/src/assets/dashboard.png)
 
 <br />
 
